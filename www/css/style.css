@@ -80,10 +80,10 @@ div#sobre{
   position: absolute;
 }
 .oque, .funcionamento{
-  border-color:#208fb3;
+  border-color:white;
   border-style:dotted;
   width: 80%;
-  height: 48%;
+  height: 40%;
   margin-left: 10%;
   position: absolute;
 }
