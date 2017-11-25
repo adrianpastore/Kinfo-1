@@ -1,0 +1,717 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+    <body>
+        <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+
+        <div class="cabecalho">
+            <div class="kinfo">
+              <h1>Kinfo</h1>
+            </div>
+            <div class="img">
+              <img src="img/logo.png" alt="">
+            </div>
+         </div>
+           <nav id="menu"class="navbar navbar-default">
+             <div class="container-fluid">
+               <div class="navbar-header">
+                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                 </button>
+               </div>
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html"><i class="glyphicon glyphicon-home"></i>Home</a></li>
+                  <li><a href="index.html#sobre"><i class="fa fa-info"></i>Sobre</a></li>
+                  <li><a href="table.html"><i class="fa fa-th-large"></i>Tabela Periódica</a></li>
+                 <li><a href="jogos.html"><i class="fa fa-puzzle-piece"></i>Games</a></li>
+                </ul>
+               </div>
+             </div>
+           </nav>
+
+
+        <div class="container">
+            <h1 class="tp">Tabela Periódica</h1>
+
+
+<table class="legenda">
+  <tbody>
+    <tr>
+      <td style="background-color:#dd377d" id="box"></td>
+      <td id="classe">Metal Alcalino</td>
+      <td style="background-color:#ff7e21" id="box"></td>
+      <td id="classe">Metal Alcalino Terroso</td>
+    </tr>
+    <tr>
+      <td style="background-color:#28beb6" id="box"></td>
+      <td id="classe">Metais de transição</td>
+      <td style="background-color:#45f48b" id="box"></td>
+      <td id="classe">Lantanídeos</td>
+    </tr>
+    <tr>
+      <td style="background-color:#ffe454" id="box"></td>
+      <td id="classe">Actinídeos</td>
+      <td style="background-color:#ff3b2f" id="box"></td>
+      <td id="classe">Metais Representativos</td>
+    </tr>
+    <tr>
+      <td style="background-color:#ffa8f4" id="box"></td>
+      <td id="classe">Semi-Metais</td>
+      <td style="background-color:#91fffc" id="box"></td>
+      <td id="classe">Não-Metais</td>
+    </tr>
+    <tr>
+      <td style="background-color:#3025ff" id="box"></td>
+      <td id="classe">Halôgenios</td>
+      <td style="background-color:#9a28ff" id="box"></td>
+      <td id="classe">Gases Nobres</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<div class="change">
+  <span id="info">Zoom</span>
+</div>
+<table class="tabela">
+  <tbody>
+    <tr class="linha">
+      <td></td>
+      <td id="grupos" class="familia1" title="Metal_alcalino" data-toggle="modal" data-target="#exampleModalLong">1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td id="grupos" class="familia18" title="Gás_nobre" data-toggle="modal" data-target="#exampleModalLong">18</td>
+    </tr>
+    <tr class="linha">
+      <td id="camada" headers="cmd1">1</td>
+      <td class="familia1" id="element" title="Hidrogénio" headers="cmd1" style="background-color:#b24df9" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>1</strong>
+        <abbr>H</abbr>
+        <span>Hidrogênio</span></td>
+      <td id="grupos" class="familia2" title="Metal_alcalinoterroso" data-toggle="modal" data-target="#exampleModalLong">2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td id="grupos" class="familia13" title="Grupo_do_boro" data-toggle="modal" data-target="#exampleModalLong">13</td>
+      <td id="grupos" class="familia14" title="Grupo_do_carbono" data-toggle="modal" data-target="#exampleModalLong">14</td>
+      <td id="grupos" class="familia15" title="Grupo_do_nitrogênio" data-toggle="modal" data-target="#exampleModalLong">15</td>
+      <td id="grupos" class="familia16" title="Calcogênio" data-toggle="modal" data-target="#exampleModalLong">16</td>
+      <td id="grupos" class="familia17" title="Halogênio" data-toggle="modal" data-target="#exampleModalLong">17</td>
+      <td class="familia18" id="element" title="Helio" headers="cmd1" style="background-color:#9a28ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>2</strong>
+        <abbr>He</abbr>
+        <span>Hélio</span></td>
+    </tr>
+    <tr class="linha">
+      <td id="camada" headers="cmd2">2</td>
+      <td class="familia1" id="element" title="Litio" headers="cmd2" style="background-color:#dd377d" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>3</strong>
+        <abbr>Li</abbr>
+        <span>Lítio</span></td>
+      <td class="familia2" id="element" title="Berilio" headers="cmd2" style="background-color:#ff7e21" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>4</strong>
+        <abbr>Be</abbr>
+        <span>Berílio</span></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="familia13" id="element" title="Boro" headers="cmd2" style="background-color:#ffa8f4" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>5</strong>
+        <abbr>B</abbr>
+        <span>Boro</span></td>
+      <td class="familia14" id="element" title="Carbono" headers="cmd2" style="background-color:#91fffc" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>6</strong>
+        <abbr>C</abbr>
+        <span>Carbono</span></td>
+      <td class="familia15" id="element" title="Nitrogenio" headers="cmd2" style="background-color:#91fffc" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>7</strong>
+        <abbr>N</abbr>
+        <span>Nitrogênio</span></td>
+      <td class="familia16" id="element" title="Oxigenio" headers="cmd2" style="background-color:#91fffc" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>8</strong>
+        <abbr>O</abbr>
+        <span>Oxigênio</span></td>
+      <td class="familia17" id="element" title="Fluor" headers="cmd2" style="background-color:#3025ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>9</strong>
+        <abbr>F</abbr>
+        <span>Fluor</span></td>
+      <td class="familia18" id="element" title="Neonio" headers="cmd2" style="background-color:#9a28ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>10</strong>
+        <abbr>Ne</abbr>
+        <span>Nêonio</span></td>
+    </tr>
+    <tr class="linha">
+      <td id="camada" class="cmd3" headers="cmd3">3</td>
+      <td class="familia1" id="element" title="Sodio" headers="cmd3" style="background-color:#dd377d" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>11</strong>
+        <abbr>Na</abbr>
+        <span>Sódio</span></td>
+      <td class="familia2" id="element" title="Magnesio" headers="cmd3" style="background-color:#ff7e21" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>12</strong>
+        <abbr>Mg</abbr>
+        <span>Magnésio</span></td>
+      <td id="grupos" class="familia3" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">3</td>
+      <td id="grupos" class="familia4" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">4</td>
+      <td id="grupos" class="familia5" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">5</td>
+      <td id="grupos" class="familia6" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">6</td>
+      <td id="grupos" class="familia7" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">7</td>
+      <td id="grupos" class="familia8" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">8</td>
+      <td id="grupos" class="familia9" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">9</td>
+      <td id="grupos" class="familia10" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">10</td>
+      <td id="grupos" class="familia11" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">11</td>
+      <td id="grupos" class="familia12" title="Metal_de_transição" data-toggle="modal" data-target="#exampleModalLong">12</td>
+      <td class="familia13" id="element" title="Aluminio" headers="cmd3" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>13</strong>
+        <abbr>Al</abbr>
+        <span>Alumínio</span></td>
+      <td class="familia14" id="element" title="Silicio" headers="cmd3" style="background-color:#ffa8f4" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>14</strong>
+        <abbr>Si</abbr>
+        <span>Silício</span></td>
+      <td class="familia15" id="element" title="Fosforo" headers="cmd3" style="background-color:#91fffc" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>15</strong>
+        <abbr>P</abbr>
+        <span>Fósforo</span></td>
+      <td class="familia16" id="element" title="Enxofre" headers="cmd3" style="background-color:#91fffc" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>16</strong>
+        <abbr>S</abbr>
+        <span>Enxofre</span></td>
+      <td class="familia17" id="element" title="Cloro" headers="cmd3" style="background-color:#3025ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>17</strong>
+        <abbr>Cl</abbr>
+        <span>Cloro</span>  </td>
+      <td class="familia18" id="element" title="Argonio" headers="cmd3" style="background-color:#9a28ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>18</strong>
+        <abbr>Ar</abbr>
+        <span>Argônio</span></td>
+    </tr>
+    <tr class="linha">
+      <td id="camada" class="cmd4" headers="cmd4">4</td>
+      <td class="familia1" id="element" title="Potassio" headers="cmd4" style="background-color:#dd377d" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>19</strong>
+        <abbr>K</abbr>
+        <span>Potássio</span></td>
+      <td class="familia2" id="element" title="Calcio" headers="cmd4" style="background-color:#ff7e21" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>20</strong>
+        <abbr>Ca</abbr>
+        <span>Cálcio</span></td>
+      <td class="familia3" id="element" title="Escandio" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>21</strong>
+        <abbr>Sc</abbr>
+        <span>Escâncio</span></td>
+      <td class="familia4" id="element" title="Titanio" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>22</strong>
+        <abbr>Ti</abbr>
+        <span>Titânio</span></td>
+      <td class="familia5" id="element" title="Vanadio" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>23</strong>
+        <abbr>V</abbr>
+        <span>Vanádio</span></td>
+      <td class="familia6" id="element" title="Cromo" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>24</strong>
+        <abbr>Cr</abbr>
+        <span>Cromo</span></td>
+      <td class="familia7" id="element" title="Manganes" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>25</strong>
+        <abbr>Mn</abbr>
+        <span>Manganês</span></td>
+      <td class="familia8" id="element" title="Ferro" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>26</strong>
+        <abbr>Fe</abbr>
+        <span>Ferro</span></td>
+      <td class="familia9" id="element" title="Cobalto" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>27</strong>
+        <abbr>Co</abbr>
+        <span>Cobalto</span></td>
+      <td class="familia10" id="element" title="Niquel" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>28</strong>
+        <abbr>Ni</abbr>
+        <span>Níquel</span></td>
+      <td class="familia11" id="element" title="Cobre" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>29</strong>
+        <abbr>Cu</abbr>
+        <span>Cobre</span></td>
+      <td class="familia12" id="element" title="Zinco" headers="cmd4" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>30</strong>
+        <abbr>Zn</abbr>
+        <span>Zinco</span></td>
+      <td class="familia13" id="element" title="Galio" headers="cmd4" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>31</strong>
+        <abbr>Ga</abbr>
+        <span>Gálio</span></td>
+      <td class="familia14" id="element" title="Germanio" headers="cmd4" style="background-color:#ffa8f4" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>32</strong>
+        <abbr>Ge</abbr>
+        <span>Germânio</span></td>
+      <td class="familia15" id="element" title="Arsenio" headers="cmd4" style="background-color:#ffa8f4" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>33</strong>
+        <abbr>As</abbr>
+        <span>Arsênio</span></td>
+      <td class="familia16" id="element" title="Selenio" headers="cmd4" style="background-color:#91fffc" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>34</strong>
+        <abbr>Se</abbr>
+        <span>Selênio</span></td>
+      <td class="familia17" id="element" title="Bromo" headers="cmd4" style="background-color:#3025ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>35</strong>
+        <abbr>Br</abbr>
+        <span>Bromo</span></td>
+      <td class="familia18" id="element" title="Criptonio" headers="cmd4" style="background-color:#9a28ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>36</strong>
+        <abbr>Kr</abbr>
+        <span>Criptônio</span></td>
+    </tr>
+    <tr class="linha">
+      <td id="camada" class="cmd5" headers="cmd5">5</td>
+      <td class="familia1" id="element" title="Rubidio" headers="cmd5" style="background-color:#dd377d" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>37</strong>
+        <abbr>Rb</abbr>
+        <span>Rubídio</span></td>
+      <td class="familia2" id="element" title="Estroncio" headers="cmd5" style="background-color:#ff7e21" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>38</strong>
+        <abbr>Sr</abbr>
+        <span>Estrôncio</span></td>
+      <td class="familia3" id="element" title="Itrio" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>39</strong>
+        <abbr>Y</abbr>
+        <span>Ítrio</span></td>
+      <td class="familia4" id="element" title="Zirconio" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>40</strong>
+        <abbr>Zr</abbr>
+        <span>Zircônio</span></td>
+      <td class="familia5" id="element" title="Niobio" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>41</strong>
+        <abbr>Nb</abbr>
+        <span>Nióbio</span></td>
+      <td class="familia6" id="element" title="Molibdenio" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>42</strong>
+        <abbr>Mo</abbr>
+        <span>Molibdênio</span></td>
+      <td class="familia7" id="element" title="Tecnecio" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>43</strong>
+        <abbr>Tc</abbr>
+        <span>Tecnécio</span></td>
+      <td class="familia8" id="element" title="Rutenio" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>44</strong>
+        <abbr>Ru</abbr>
+        <span>Rutênio</span></td>
+      <td class="familia9" id="element" title="Rodio" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>45</strong>
+        <abbr>Rh</abbr>
+        <span>Ródio</span></td>
+      <td class="familia10" id="element" title="Paladio" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>46</strong>
+        <abbr>Pd</abbr>
+        <span>Paládio</span></td>
+      <td class="familia11" id="element" title="Prata" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>47</strong>
+        <abbr>Ag</abbr>
+        <span>Prata</span></td>
+      <td class="familia12" id="element" title="Cadmio" headers="cmd5" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>48</strong>
+        <abbr>Cd</abbr>
+        <span>Cádmio</span></td>
+      <td class="familia13" id="element" title="Indio" headers="cmd5" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>49</strong>
+        <abbr>In</abbr>
+        <span>Índio</span></td>
+      <td class="familia14" id="element" title="Estanho" headers="cmd5" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>50</strong>
+        <abbr>Sn</abbr>
+        <span>Estanho</span></td>
+      <td class="familia15" id="element" title="Antimonio" headers="cmd5" style="background-color:#ffa8f4" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>51</strong>
+        <abbr>Sb</abbr>
+        <span>Antimônio</span></td>
+      <td class="familia16" id="element" title="Telurio" headers="cmd5" style="background-color:#ffa8f4" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>52</strong>
+        <abbr>Te</abbr>
+        <span>Telúrio</span></td>
+      <td class="familia17" id="element" title="Iodo" headers="cmd5" style="background-color:#3025ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>53</strong>
+        <abbr>I</abbr>
+        <span>Iodo</span></td>
+      <td class="familia18" id="element" title="Xenomio" headers="cmd5" style="background-color:#9a28ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>54</strong>
+        <abbr>Xe</abbr>
+        <span>Xenômio</span></td>
+    </tr>
+    <tr class="linha">
+      <td id="camada" class="cmd6" headers="cmd6">6</td>
+      <td class="familia1" id="element" title="Cesio" headers="cmd6" style="background-color:#dd377d" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>55</strong>
+        <abbr>Cs</abbr>
+        <span>Césio</span></td>
+      <td class="familia2" id="element" title="Bario" headers="cmd6" style="background-color:#ff7e21" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>56</strong>
+        <abbr>Ba</abbr>
+        <span>Bário</span></td>
+      <td class="familia3" id="element" title="Lantanídeo" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong></strong>
+        <abbr>57-71</abbr>
+        <span>*</span></td>
+      <td class="familia4" id="element" title="Hafnio" headers="cmd6" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>72</strong>
+        <abbr>Hf</abbr>
+        <span>Háfnio</span></td>
+      <td class="familia5" id="element" title="Tantalo" headers="cmd6" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>73</strong>
+        <abbr>Ta</abbr>
+        <span>Tântalo</span></td>
+      <td class="familia6" id="element" title="Tungstenio" headers="cmd6" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>74</strong>
+        <abbr>W</abbr>
+        <span>Tungstênio</span></td>
+      <td class="familia7" id="element" title="Renio" headers="cmd6" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>75</strong>
+        <abbr>Re</abbr>
+        <span>Rênio</span></td>
+      <td class="familia8" id="element" title="Osmio" headers="cmd6" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>76</strong>
+        <abbr>Os</abbr>
+        <span>Ósmio</span></td>
+      <td class="familia9" id="element" title="Iridio" headers="cmd6" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>77</strong>
+        <abbr>Ir</abbr>
+        <span>Irídio</span></td>
+      <td class="familia10" id="element" title="Platina" headers="cmd6" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>78</strong>
+        <abbr>Pt</abbr>
+        <span>Platina</span></td>
+      <td class="familia11" id="element" title="Ouro" headers="cmd6" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>79</strong>
+        <abbr>Au</abbr>
+        <span>Ouro</span></td>
+      <td class="familia12" id="element" title="Mercurio" headers="cmd6" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>80</strong>
+        <abbr>Hg</abbr>
+        <span>Mercúrio</span></td>
+      <td class="familia13" id="element" title="Talio" headers="cmd6" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>81</strong>
+        <abbr>Tl</abbr>
+        <span>Tálio</span></td>
+      <td class="familia14" id="element" title="Chumbo" headers="cmd6" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>82</strong>
+        <abbr>Pb</abbr>
+        <span>Chumbo</span></td>
+      <td class="familia15" id="element" title="Bismuto" headers="cmd6" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>83</strong>
+        <abbr>Bi</abbr>
+        <span>Bismuto</span></td>
+      <td class="familia16" id="element" title="Polonio" headers="cmd6" style="background-color:#ffa8f4" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>84</strong>
+        <abbr>Po</abbr>
+        <span>Polônio</span></td>
+      <td class="familia17" id="element" title="Astato" headers="cmd6" style="background-color:#3025ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>85</strong>
+        <abbr>At</abbr>
+        <span>Astato</span></td>
+      <td class="familia18" id="element" title="Radonio" headers="cmd6" style="background-color:#9a28ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>86</strong>
+        <abbr>Rn</abbr>
+        <span>Radônio</span></td>
+    </tr>
+    <tr class="linha">
+      <td id="camada" class="cmd7" headers="cmd7">7</td>
+      <td class="familia1" id="element" title="Francio" headers="cmd7" style="background-color:#dd377d" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>87</strong>
+        <abbr>Fr</abbr>
+        <span>Frâncio</span></td>
+      <td class="familia2" id="element" title="Radio" headers="cmd7" style="background-color:#ff7e21" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>88</strong>
+        <abbr>Ra</abbr>
+        <span>Rádio</span></td>
+      <td class="familia3" id="element" title="Actnídeo" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong></strong>
+        <abbr>89-103</abbr>
+        <span>*</span></td>
+      <td class="familia4" id="element" title="Ruterfordio" headers="cmd7" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>104</strong>
+        <abbr>Rf</abbr>
+        <span>Rutderfórdio</span></td>
+      <td class="familia5" id="element" title="Dubnio" headers="cmd7" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>105</strong>
+        <abbr>Db</abbr>
+        <span>Dúbnio</span></td>
+      <td class="familia6" id="element" title="Seaborgio" headers="cmd7" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>106</strong>
+        <abbr>Sg</abbr>
+        <span>Seabórgio</span></td>
+      <td class="familia7" id="element" title="Bohrio" headers="cmd7" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>107</strong>
+        <abbr>Bh</abbr>
+        <span>Bóhrio</span></td>
+      <td class="familia8" id="element" title="Hassio" headers="cmd7" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>108</strong>
+        <abbr>Hs</abbr>
+        <span>Hássio</span></td>
+      <td class="familia9" id="element" title="Meitnerio" headers="cmd7" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>109</strong>
+        <abbr>Mt</abbr>
+        <span>Meitnério</span></td>
+      <td class="familia10" id="element" title="Darmstadio" headers="cmd7" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>110</strong>
+        <abbr>Ds</abbr>
+        <span>Darmstádio</span></td>
+      <td class="familia11" id="element" title="Roentgenio" headers="cmd7" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>111</strong>
+        <abbr>Rg</abbr>
+        <span>Roentgênio</span></td>
+      <td class="familia12" id="element" title="Copernicio" headers="cmd7" style="background-color:#28beb6" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>112</strong>
+        <abbr>Cn</abbr>
+        <span>Copernício</span></td>
+      <td class="familia13" id="element" title="Ununtrio" headers="cmd7" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>113</strong>
+        <abbr>Uut</abbr>
+        <span>Unutrio</span></td>
+      <td class="familia14" id="element" title="Flerovio" headers="cmd7" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>114</strong>
+        <abbr>Fl</abbr>
+        <span>Fleróvio</span></td>
+      <td class="familia15" id="element" title="Ununpetio" headers="cmd7" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>115</strong>
+        <abbr>Uup</abbr>
+        <span>Ununpentio</span></td>
+      <td class="familia16" id="element" title="Livermorio" headers="cmd7" style="background-color:#ff3b2f" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>116</strong>
+        <abbr>Lv</abbr>
+        <span>Livermório</span></td>
+      <td class="familia17" id="element" title="Ununseptio" headers="cmd7" style="background-color:#3025ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>117</strong>
+        <abbr>Uus</abbr>
+        <span>Ununséptio</span></td>
+      <td class="familia18" id="element" title="Ununoctio" headers="cmd7" style="background-color:#9a28ff" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>118</strong>
+        <abbr>Uuo</abbr>
+        <span>Ununóctio</span></td>
+    </tr>
+    <tr class="space">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="linha">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="familia3" id="element" title="Lantanio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>57</strong>
+        <abbr>La</abbr>
+        <span>Lantânio</span></td>
+      <td class="familia3" id="element" title="Cerio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>58</strong>
+        <abbr>Ce</abbr>
+        <span>Cério</span></td>
+      <td class="familia3" id="element" title="Praseocimio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>59</strong>
+        <abbr>Pr</abbr>
+        <span>Praseocímio</span></td>
+      <td class="familia3" id="element" title="Neodimio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>60</strong>
+        <abbr>Nd</abbr>
+        <span>Neodímio</span></td>
+      <td class="familia3" id="element" title="Promecio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>61</strong>
+        <abbr>Pm</abbr>
+        <span>Promécio</span></td>
+      <td class="familia3" id="element" title="Samario" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>62</strong>
+        <abbr>Sm</abbr>
+        <span>Samário</span></td>
+      <td class="familia3" id="element" title="Europio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>63</strong>
+        <abbr>Eu</abbr>
+        <span>Európio</span></td>
+      <td class="familia3" id="element" title="Gadolinio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>64</strong>
+        <abbr>Gd</abbr>
+        <span>Gadolínio</span></td>
+      <td class="familia3" id="element" title="Terbio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>65</strong>
+        <abbr>Tb</abbr>
+        <span>Térbio</span></td>
+      <td class="familia3" id="element" title="Disprosio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>66</strong>
+        <abbr>Dy</abbr>
+        <span>Disprósio</span></td>
+      <td class="familia3" id="element" title="Holmio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>67</strong>
+        <abbr>Ho</abbr>
+        <span>Hólmio</span></td>
+      <td class="familia3" id="element" title="Erbio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>68</strong>
+        <abbr>Er</abbr>
+        <span>Érbio</span></td>
+      <td class="familia3" id="element" title="Tulio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>69</strong>
+        <abbr>Tm</abbr>
+        <span>Túlio</span></td>
+      <td class="familia3" id="element" title="Iterbio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>70</strong>
+        <abbr>Yb</abbr>
+        <span>Itérbio</span></td>
+      <td class="familia3" id="element" title="Lutecio" headers="cmd6" style="background-color:#45f48b" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>71</strong>
+        <abbr>Lu</abbr>
+        <span>Lutécio</span></td>
+      <td></td>
+    </tr>
+    <tr class="linha">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="familia3" id="element" title="Actinio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>89</strong>
+        <abbr>Ac</abbr>
+        <span>Actínio</span></td>
+      <td class="familia3" id="element" title="Torio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>90</strong>
+        <abbr>td</abbr>
+        <span>Tório</span></td>
+      <td class="familia3" id="element" title="Protactinio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>91</strong>
+        <abbr>Pa</abbr>
+        <span>Protactínio</span></td>
+      <td class="familia3" id="element" title="Uranio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>92</strong>
+        <abbr>U</abbr>
+        <span>Urânio</span></td>
+      <td class="familia3" id="element" title="Neptunio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>93</strong>
+        <abbr>Np</abbr>
+        <span>Neptúnio</span></td>
+      <td class="familia3" id="element" title="Plutonio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>94</strong>
+        <abbr>Pu</abbr>
+        <span>Plutônio</span></td>
+      <td class="familia3" id="element" title="Americio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>95</strong>
+        <abbr>An</abbr>
+        <span>Amerício</span></td>
+      <td class="familia3" id="element" title="Curio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>96</strong>
+        <abbr>Cm</abbr>
+        <span>Cúrio</span></td>
+      <td class="familia3" id="element" title="Berquelio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>97</strong>
+        <abbr>Bk</abbr>
+        <span>Berquélio</span></td>
+      <td class="familia3" id="element" title="Californio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>98</strong>
+        <abbr>Cf</abbr>
+        <span>Califórnio</span></td>
+      <td class="familia3" id="element" title="Einstenio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>99</strong>
+        <abbr>Es</abbr>
+        <span>Einstênio</span></td>
+      <td class="familia3" id="element" title="Fermio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>100</strong>
+        <abbr>Fm</abbr>
+        <span>Férmio</span></td>
+      <td class="familia3" id="element" title="Mendelevio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>101</strong>
+        <abbr>Md</abbr>
+        <span>Mendelévio</span></td>
+      <td class="familia3" id="element" title="Nobelio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>102</strong>
+        <abbr>No</abbr>
+        <span>Nobélio</span></td>
+      <td class="familia3" id="element" title="Laurencio" headers="cmd7" style="background-color:#ffe454" data-toggle="modal" data-target="#exampleModalLong">
+        <strong>103</strong>
+        <abbr>Lr</abbr>
+        <span>Laurêncio</span></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="fechar btn btn-danger" data-dismiss="modal">X</button>
+      </div>
+      <div class="modal-body" id="janela">
+        <iframe style="border: 0" src="" width="100%" height="100%" frameborder="0" scrolling="yes"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/table.js"></script>
+        </div>
+
+      <div id="rodape" class="container">
+          <div class="row">
+          <hr>
+            <div class="col-lg-12">
+              <div class="col-md-8">
+                <a href="#">Terms of Service</a> | <a href="#">Privacy</a>
+              </div>
+              <div class="col-md-4">
+                <p class="muted pull-right">© 2017 Instituto Federal, IFRS. All rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script src="vendor/jquery/dist/jquery.min.js"></script>
+        <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script src="vendor/handlebars/handlebars.min.js"></script>
+
+    </body>
+    </html>
