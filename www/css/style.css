@@ -70,7 +70,7 @@ nav#menu i{
 }
 div#sobre{
   width: 80%;
-  height: 90%;
+  height: 100%;
   margin-top: 10%;
   margin-left: 2%;
   border-style: dotted;
@@ -80,7 +80,7 @@ div#sobre{
   position: absolute;
 }
 .oque, .funcionamento{
-  border-color: #208fb3;
+  border-color: white;
   border-style:dotted;
   width: 80%;
   height: 55%;
